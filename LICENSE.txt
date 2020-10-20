@@ -13,7 +13,7 @@ Speed up your website. Optimize your JPEG and PNG images automatically with Femo
 
 == Description ==
 
-Make your website faster by optimizing your JPEG and PNG images to WebP. This plugin automatically optimizes all your images by integrating image compression services FemoraPro.
+Make your website faster by optimizing your JPEG and PNG images to WebP. This plugin automatically optimizes all your images by integrating image compression services FemoraPro [FemoraPro](https://www.femora.pro/).
 
 = Features =
 
