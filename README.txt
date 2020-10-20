@@ -2,7 +2,6 @@
 Contributors: FemoraPro
 Donate link: https://www.femora.pro/
 Tags: compress images, compression, image size, page speed, performance, png, jpg, webp
-Requires PHP: 5.6
 Requires at least: 5.0
 Tested up to: 5.5
 Stable tag: 0.9.4
@@ -13,7 +12,7 @@ Speed up your website. Optimize your JPEG and PNG images automatically with Femo
 
 == Description ==
 
-Make your website faster by optimizing your JPEG and PNG images to WebP. This plugin automatically optimizes all your images by integrating image compression services FemoraPro.
+Make your website faster by optimizing your JPEG and PNG images to WebP. This plugin automatically optimizes all your images by integrating image compression services FemoraPro [FemoraPro](https://www.femora.pro/).
 
 = Features =
 
@@ -49,7 +48,7 @@ Got questions or feedback? Let us know! Contact us at contact@femora.pro or find
 
 = Contributors =
 
-Want to contribute? Check out the [FemoraPro WordPress plugin on GitHub](https://github.com/tinify/wordpress-plugin).
+Want to contribute? Check out the [FemoraPro WordPress plugin on GitHub](https://github.com/cristian-wpo/femora-compress/).
 
 == Installation ==
 
@@ -68,9 +67,8 @@ Want to contribute? Check out the [FemoraPro WordPress plugin on GitHub](https:/
 2. Upload the directory`femora_compress` to your `/wp-content/plugins/` directory, using your favorite method (ftp, sftp, scp, etc...)
 3. Activate the plugin from your Plugins page.
 4. Go to Femora Compress > Settings and register a new account.
-5. Or enter the API key you got from https://www.femora.pro/developers.
-6. Once registered your account go to Femora > Femora > Search images and wait for the plugin load all the images located on your website. 
-7. Hit the button and optimize all your images!
+5. Once registered your account go to Femora > Femora > Search images and wait for the plugin load all the images located on your website. 
+6. Hit the button and optimize all your images!
 
 == Screenshots ==
 
@@ -78,13 +76,21 @@ Want to contribute? Check out the [FemoraPro WordPress plugin on GitHub](https:/
 2. Start the optimization in your WordPress site. (NOTE: the optimization process will include all the images regadless the size)
 3. Right after the optimization you will see the improvement in the images. 
 
+== Privacy Policy ==
+
+https://www.femora.pro/politica-de-privacidad-y-cookies/
+
+== Legal notice ==
+
+https://www.femora.pro/aviso-legal/
+
 == Frequently Asked Questions ==
 
 = Q: How many images can I optimize for free? =
 A: In a default WordPress installation you can optimize around 5.000 images for free each month. WordPress creates different thumbnails of your images which all have to be compressed. Some plugins even add more sizes.
 
 = Q: How can I remove the 5.000 limit? =
-A: Just add your *Payment details* on your [account dashboard](https://www.femora.pro/dashboard/api) to remove the limit.
+A: Just add your *Payment details* on your [account dashboard](https://www.femora.pro/) to remove the limit.
 
 = Q: What happens to the optimized images when I uninstall the plugin? =
 A: When you remove the plugin all your optimized images will remain optimized.
@@ -99,7 +105,7 @@ A: Everything will keep on working, but newly uploaded images will not be optimi
 A: Yes! After installing the plugin, go to Femora Compress, and click on the start button to optimize all unoptimized images in your media library.
 
 = Q: How do I switch to a paid account? =
-A: You can upgrade to a paid account by adding your *Payment details* on your [account dashboard](https://www.femora.pro/dashboard/api).
+A: You can upgrade to a paid account by adding your *Payment details* on your [account dashboard](https://www.femora.pro/).
 
 == Changelog ==
 =versión actual =
