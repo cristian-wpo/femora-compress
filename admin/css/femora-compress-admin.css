@@ -1,0 +1,522 @@
+.goalProgress {
+    background: #b3b3b3
+}
+.progressBar {
+    background: #6589c1;
+    color: #fff;
+    font-size: 1.1em;
+    letter-spacing: -1px;
+    font-weight: 600;
+    padding: 7px 10px;
+    display: block;
+    overflow: hidden;
+    width: 20px
+}
+#progress_restaurar .progressBar {
+    margin-bottom: 10px;
+}
+.goalAmount {
+    display: none;
+    text-indent: -9999px
+}
+.box_custom_femora {
+    padding: 0px 20px
+}
+.btn_femora {
+    outline:none;
+}
+.btn_femora:active{
+    outline:none;
+    /*top: 4px;*/
+    width: 105%;
+    right: 4px;
+    -moz-box-shadow: 0px 1px 0px 0px rgb(0, 105, 202);
+    -webkit-box-shadow: 0px 1px 0px 0px rgb(0, 105, 202);
+    box-shadow: 0px 1px 0px 0px rgb(0, 105, 202);
+}
+.box_custom_femora .topLogoBanner {
+    padding: 10px 0px
+}
+.box_custom_femora .topLogoBanner .logo,
+.box_custom_femora .topLogoBanner .banner {
+    display: inline-block;
+    width: 29%;
+    vertical-align: top
+}
+.box_custom_femora .topLogoBanner .logo img,
+.box_custom_femora .topLogoBanner .banner img {
+    max-width: 100%
+}
+.box_custom_femora .topLogoBanner .logo img {
+    max-width: 280px;
+    width: 100%
+}
+.box_custom_femora .topLogoBanner .banner {
+    width: 70%
+}
+.box_custom_femora .flex-containerColumns,
+.box_custom_femora .BxDetallesFormatos {
+    display: flex;
+    justify-content: center
+}
+.box_custom_femora .flex-containerTwoColumns,
+.box_custom_femora .boxsTwoColumns,
+.box_custom_femora .boxsFourColumns {
+    display: flex;
+    justify-content: center
+}
+.box_custom_femora .btn_buscar button {
+    background-color: #752993;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 4px 15px;
+    border: 0px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px
+}
+.box_custom_femora .btn_buscar button:before {
+    content: " ";
+    border-right: solid 1px #fff;
+    display: block;
+    float: left;
+    width: 23px;
+    height: 20px;
+    margin-right: 8px;
+    background-image: url("../../assets/images/icono-buscar.png");
+    background-size: 15px auto;
+    background-repeat: no-repeat;
+    background-position: left center
+}
+.box_custom_femora .btn_optimizar button {
+    background-color: #752993;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 4px 15px;
+    border: 0px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    margin-left: 20px
+}
+.box_custom_femora .btn_optimizar button:before {
+    content: " ";
+    border-right: solid 1px #fff;
+    display: block;
+    float: left;
+    width: 23px;
+    height: 20px;
+    margin-right: 8px;
+    background-image: url("../../assets/images/icono-optimizar.png");
+    background-size: 15px auto;
+    background-repeat: no-repeat;
+    background-position: left center
+}
+.box_custom_femora .icon-png {
+    display: inline-block;
+    background: url("../../assets/images/icono-png.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto 28px;
+    width: 30px;
+    height: 28px
+}
+.box_custom_femora .icon-jpg {
+    display: inline-block;
+    background: url("../../assets/images/icono-jpg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto 28px;
+    width: 30px;
+    height: 28px
+}
+.box_custom_femora .goalProgress {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px
+}
+.box_custom_femora .goalProgress .progressBar {
+    -webkit-border-top-left-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -webkit-border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    -moz-border-radius-topleft: 20px;
+    -moz-border-radius-bottomleft: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+    font-weight: 400
+}
+.box_custom_femora .iconCheck {
+    display: inline-block;
+    background: url("../../assets/images/icono-check.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto 28px;
+    width: 30px;
+    height: 28px;
+    width: 25px;
+    height: 20px;
+    background-size: auto 20px
+}
+.box_custom_femora .inline-list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px
+}
+.box_custom_femora .inline-list li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 5px
+}
+.box_custom_femora .boxsTwoColumns {
+    color: #666666
+}
+.box_custom_femora .boxsTwoColumns .widget {
+    display: block;
+    width: 50%;
+    background: #fff;
+    padding: 15px 20px;
+    margin: 10px 10px 10px 0px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px
+}
+.box_custom_femora .boxsTwoColumns .widget input[type="text"] {
+    background: #ffffff;
+    border: 1px solid #b3b3b3;
+    color: #c2b3d4;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    text-align: center;
+    margin: 0px 10px
+}
+.box_custom_femora .boxsTwoColumns .widget input[type="text"]::placeholder {
+    color: #c2b3d4
+}
+.box_custom_femora .boxsTwoColumns .widget:first-child {
+    padding: 0px
+}
+.box_custom_femora .boxsTwoColumns .widget:first-child .top,
+.box_custom_femora .boxsTwoColumns .widget:first-child .bottom {
+    padding: 35px 20px
+}
+.box_custom_femora .boxsTwoColumns .widget:first-child .bottom {
+    background: #e5e5e5;
+    -webkit-border-bottom-right-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -moz-border-radius-bottomright: 20px;
+    -moz-border-radius-bottomleft: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px
+}
+.box_custom_femora .boxsTwoColumns .widget:first-child .bottom .bxProgressBar {
+    width: 100%;
+    max-width: 320px
+}
+.box_custom_femora .boxsTwoColumns .widget:last-child {
+    margin: 10px 0px 10px 10px;
+    font-size: 1.1em
+}
+.box_custom_femora .boxsTwoColumns .widget:last-child ul {
+    text-align: center;
+    margin-bottom: 15px
+}
+.box_custom_femora .boxsTwoColumns .widget:last-child input[type="text"] {
+    max-width: 120px
+}
+.box_custom_femora .boxsTwoColumns .widget:last-child .iconCheck {
+    display: block;
+    float: left
+}
+.box_custom_femora .boxsTwoColumns .widget:last-child .bxInfo {
+    text-align: center
+}
+.box_custom_femora .boxsTwoColumns .widget:last-child .bxInfo label {
+    background: #f0f0f0;
+    font-size: .9em;
+    display: inline-block;
+    padding: 6px 25px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px
+}
+.box_custom_femora .listaImagenes .titleImg {
+    background: #fff;
+    margin: 20px 0px;
+    color: #666666;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-image: url("../../assets/images/icono-searchT.png");
+    background-repeat: no-repeat;
+    background-size: auto 20px;
+    background-position: 15px center;
+    padding: 10px 20px 10px 40px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px
+}
+.box_custom_femora .listaImagenes .dataTables_wrapper #tablafemoracompress_filter {
+    display: block;
+    width: 100%;
+    position: relative;
+    text-align: left;
+    margin: 20px 0px
+}
+.box_custom_femora .listaImagenes .dataTables_wrapper #tablafemoracompress_filter input {
+    display: block;
+    width: 100%;
+    background: #fff;
+    color: #666666;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-image: url("../../assets/images/icono-searchT.png");
+    background-repeat: no-repeat;
+    background-size: auto 20px;
+    background-position: 15px center;
+    padding: 5px 20px 5px 40px;
+    border: 0px;
+    margin-bottom: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px
+}
+.box_custom_femora .listaImagenes .dataTables_wrapper table {
+    border-bottom: 0px
+}
+.box_custom_femora .listaImagenes .dataTables_wrapper table thead th {
+    text-transform: uppercase;
+    font-weight: 600;
+    border-bottom: 0px
+}
+.box_custom_femora .listaImagenes .dataTables_wrapper table tbody tr {
+    background: transparent;
+    border-bottom: solid 1px #cbcbcb
+}
+.box_custom_femora .listaImagenes .dataTables_wrapper table tbody tr td {
+    background: transparent !important;
+    text-align: center;
+    padding: 18px 15px;
+    border-bottom: 0px
+}
+.box_custom_femora .boxsFourColumns {
+    color: #808080
+}
+.box_custom_femora .boxsFourColumns .widget {
+    display: block;
+    width: 23%;
+    margin: 0px 2% 0px 0px;
+    background: #e3e0e0;
+    text-align: center;
+    padding: 15px 15px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px
+}
+.box_custom_femora .boxsFourColumns .widget h2 {
+    text-align: center;
+    color: #808080;
+    line-height: 120%
+}
+.box_custom_femora .boxsFourColumns .widget form input[type="text"],
+.box_custom_femora .boxsFourColumns .widget form input[type="password"] {
+    background-color: #fff;
+    border: 0px;
+    margin-bottom: 10px;
+    color: #878888;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px
+}
+.box_custom_femora .boxsFourColumns .widget form input[type="text"]::placeholder,
+.box_custom_femora .boxsFourColumns .widget form input[type="password"]::placeholder {
+    color: #878888
+}
+.box_custom_femora .boxsFourColumns .widget form .username,
+.box_custom_femora .boxsFourColumns .widget form .password {
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    background-size: auto 15px;
+    padding-left: 35px
+}
+.box_custom_femora .boxsFourColumns .widget form .username {
+    background-image: url("../../assets/images/icono-username.png")
+}
+.box_custom_femora .boxsFourColumns .widget form .password {
+    background-image: url("../../assets/images/icono-password.png")
+}
+.box_custom_femora .boxsFourColumns .widget form input[type="submit"],
+.box_custom_femora .boxsFourColumns .widget form .btn_white {
+    background: #752993;
+    color: #fff;
+    text-align: center;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    border: 0px;
+    padding: 3px 15px;
+    margin: 5px auto 10px auto
+}
+.femora_boton {
+    color: #fff;
+    text-align: center;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    border: 0px;
+    padding: 3px 15px;
+    margin: 5px auto 10px auto;
+    max-width: 120px;
+    outline:none
+}
+#btn_registro, #btn_respaldo {
+    background: #752993!important;
+}
+.box_custom_femora .boxsFourColumns .widget form .btn_white {
+    background: #fff;
+    color: #808080;
+    text-decoration: none;
+    display: inline-block;
+    padding: 3px 30px
+}
+.box_custom_femora .boxsFourColumns .widget:last-child {
+    margin-right: 0px
+}
+.box_custom_femora .BxDetallesFormatos {
+    padding: 30px 10px
+}
+.box_custom_femora .BxDetallesFormatos .widget {
+    color: #746e7a;
+    width: 33.3%;
+    margin: 0px;
+    background: #fcfcfc;
+    font-size: .9em
+}
+.box_custom_femora .BxDetallesFormatos .widget h3 {
+    background: #752993;
+    color: #fff;
+    margin: 0px;
+    padding: 8px 10px;
+    text-align: center
+}
+.box_custom_femora .BxDetallesFormatos .widget ul {
+    margin: 0px;
+    list-style: none;
+    padding: 0px 15px
+}
+.box_custom_femora .BxDetallesFormatos .widget ul li {
+    display: flex;
+    justify-content: center;
+    padding: 8px 10px;
+    vertical-align: top
+}
+.box_custom_femora .BxDetallesFormatos .widget ul li label {
+    width: 40%;
+    padding-top: 5px;
+    background: url(../../assets/images/icono-bullet-aux.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 10px
+}
+.box_custom_femora .BxDetallesFormatos .widget ul li input {
+    width: 60%;
+    background: #ebe9e9;
+    border: 0px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px
+}
+.box_custom_femora .BxDetallesFormatos .widget:first-child {
+    -webkit-border-top-left-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -moz-border-radius-topleft: 20px;
+    -moz-border-radius-bottomleft: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px
+}
+.box_custom_femora .BxDetallesFormatos .widget:first-child h3 {
+    -webkit-border-top-left-radius: 20px;
+    -moz-border-radius-topleft: 20px;
+    border-top-left-radius: 20px
+}
+.box_custom_femora .BxDetallesFormatos .widget:last-child {
+    -webkit-border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    -moz-border-radius-topright: 20px;
+    -moz-border-radius-bottomright: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px
+}
+.box_custom_femora .BxDetallesFormatos .widget:last-child h3 {
+    -webkit-border-top-right-radius: 20px;
+    -moz-border-radius-topright: 20px;
+    border-top-right-radius: 20px
+}
+
+/* Loader */
+
+
+.femora_loader,
+.femora_loader:before,
+.femora_loader:after {
+  background: #752993;
+  -webkit-animation: load1 1s infinite ease-in-out;
+  animation: load1 1s infinite ease-in-out;
+  width: 1em;
+  height: 4em;
+}
+.femora_loader:before,
+.femora_loader:after {
+  position: absolute;
+  top: 0;
+  content: '';
+}
+.femora_loader:before {
+  left: -1.5em;
+}
+.femora_loader {
+  text-indent: -9999em;
+  margin: 15% auto;
+  position: relative;
+  font-size: 11px;
+  -webkit-animation-delay: 0.16s;
+  animation-delay: 0.16s;
+}
+.femora_loader:after {
+  left: 1.5em;
+  -webkit-animation-delay: 0.32s;
+  animation-delay: 0.32s;
+}
+@-webkit-keyframes load1 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0 #752993;
+    height: 4em;
+  }
+  40% {
+    box-shadow: 0 -2em #752993;
+    height: 5em;
+  }
+}
+@keyframes load1 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0 #752993;
+    height: 4em;
+  }
+  40% {
+    box-shadow: 0 -2em #752993;
+    height: 5em;
+  }
+}
+
+/* Fin Loader */
+
+.botton_separador_f{
+    margin-bottom: 60px;
+}
